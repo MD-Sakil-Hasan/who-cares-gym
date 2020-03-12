@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Cares GYM</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('images/gym.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+            
+        }
+        .left {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            font-family: 'Baloo', cursive;
+            font-size: 30px;
+            text-align: center;
+        }
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width:50%;
+            margin-left: 420px;
+            margin-top: 40px;
+            /* padding: 380px; */
+            /* top: 20px; */
+        }
+        .right {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            padding: 6px 14px;
+            margin: 10px;
+            font-family: 'Baloo', cursive;
+        }
+        .navbar {
+            display: inline-block;
+            /* width: 50%; */
+            /* margin: 20px;
+            padding: 20px; */
+        }
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 30px 10x;
+            border: 1px solid white;
+            background-color: transparent;
+            border-radius: 4px;
+        }
+        .navbar li a:hover , .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+        }
+        .btn {
+            margin: 0px 9px;
+            background-color:white;
+            color: rgb(0, 0, 0);
+            padding: 6px 14px;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: gray;
+        }
+        .container {
+            border: 2px solid white;
+            margin: 161px 130px;
+            width: 11%;
+            padding: 73px;
+            border-radius: 35px;
+            font-family: 'Baloo', cursive;
+        }
+        .container h1 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            display: inline-block;
+        }
+        .btn {
+            margin: 16px -1px;
+            width: 169px;
+            border-radius: 8px;
+        }
+        .form-group input{
+            margin: ;
+            padding: ;
+            border-radius: 4px;
+            width: 163px;
+        }
+        .logo-caption {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-shadow: rgb(0, 0, 0);
+        stroke: rgb(0, 0, 0);
+        font-size: 20px;
+        margin: -21px;
+        padding: 0px;
+      
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left"><img src="images/logo2.1.jpg" alt="Who Cares GYM"><div class="logo-caption">Who Cares GYM</div></div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">Fitness Advisor</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button type="button" class="btn"><a href="">Call Us</a></button>
+            <button type="button" class="btn"><a href="">Email Us</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join us now</h1>
+        <form action="nothing,php">
+            <div class="form-group">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Age">
+                <input type="text" placeholder="Current address">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Contact number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
